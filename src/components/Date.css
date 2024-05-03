@@ -1,0 +1,62 @@
+.date {
+    position: relative;
+    display: grid;
+    grid-template: 1fr / auto 1fr auto;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    width: 80%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-color: antiquewhite;
+    margin-right: 50px;
+}
+
+.edit-icon {
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.edit-icon:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.4);
+    padding: 4px;
+}
+
+.edit-icon::selection {
+    color: none;
+    background: none;
+}
+
+.date-dropdown {
+    background-color: #ccc;
+    position: absolute;
+    top: 90%;
+    right: 15px;
+    z-index: 1;
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+}
+
+.dropdown-element {
+    cursor: pointer;
+    padding: 5px;
+    color: #00a;
+    border: 1px solid #777;
+}
+
+.dropdown-element:hover {
+    text-decoration: underline;
+}

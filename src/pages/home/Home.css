@@ -1,0 +1,30 @@
+#home {
+    height: 100%;
+}
+
+.home-pic {
+    height: 100%;
+    border: 1px solid black;
+}
+
+#posing {
+    position: absolute;
+    right: 0;
+    height: 95%;
+}
+
+#letter {
+    position: absolute;
+    top: 20%;
+    left: 7.5%;
+    max-width: 35%;
+    background-color: rgba(200, 200, 200, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    border: 4px solid black;
+}
+
+#letter-pic {
+    width: 100%;
+    height: 100%;
+}
