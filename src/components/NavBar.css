@@ -17,7 +17,7 @@
 }
 
 #title {
-    display:flex;
+    display: flex;
     align-items: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -33,6 +33,7 @@
     margin-left: 5px;
     padding: 0;
     border: none;
+    width: 50px;
 }
 
 #home-button:hover {

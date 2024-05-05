@@ -9,7 +9,7 @@ function Date({ dateInfo, del, update }) {
     const [showPopup, setShowPopup] = useState(false);
 
     const toggleCompleted = () => {
-        changeDate(dateInfo.id, {completed: !completed});
+        changeDate(dateInfo.id, { completed: !completed });
         setCompleted(!completed);
     }
 
