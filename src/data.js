@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, collection, doc, getDocs, addDoc, deleteDoc, updateDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBxfP48qKRqszoZBZXWGgWbvf_26eLx69k",
+    apiKey: process.env.REACT_APP_API_KEY,
     authDomain: "mark-and-lily.firebaseapp.com",
     projectId: "mark-and-lily",
     storageBucket: "mark-and-lily.appspot.com",
